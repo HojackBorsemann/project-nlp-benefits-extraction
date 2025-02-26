@@ -90,8 +90,4 @@ Job descriptions often **mention benefits vaguely** (e.g., “Great employee per
 
 ⚠️ **Avoiding False Positives**  
 "Health Insurance Consultant" (job role) vs. "Health Insurance Provided" (benefit).  
-**Solution:** Context-aware modeling using **Transformer-based embeddings** + custom **negative sampling during training**.  
-
-<br>
-
-### Notebooks
+**Solution:** Context-aware modeling using **Transformer-based embeddings** + custom **negative sampling during training**. 
