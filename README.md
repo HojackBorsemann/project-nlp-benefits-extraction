@@ -80,7 +80,7 @@ To achieve this, I trained **two ML models**:
 
 ### 🚀 Challenges & Insights 
 ⚠️ **Handling Class Imbalance**  
-Some benefit categories were **underrepresented in the training data**. 
+Some benefit categories were **underrepresented in the training data**.   
 **Solution:**  
 - **Used data augmentation techniques** to artificially balance the dataset.  
 - **Optimized loss functions** to prevent bias towards overrepresented classes.  
