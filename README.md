@@ -44,7 +44,7 @@ To achieve this, I trained **two ML models**:
 <br>
 
 ### 📘 Project notebooks
-- 📄 **[Main Workflow Notebook](/notebooks/(PROD)_Using_Benefits_NER_and_Text_Categorisation.ipynb)**
+- 📄 **[Main Workflow Notebook](/notebooks/Using_NER_and_Classificcation_models.ipynb)**
 
 ### 📂 Dataset
 **Source:** Job descriptions **scraped from online job boards** and stored in **Databricks Catalog**  
