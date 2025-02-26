@@ -6,7 +6,7 @@
 
 To achieve this, I trained **two ML models**:
 - **Named Entity Recognition (NER) Model** -> Extracts benefits from job descriptions along with contextual details e.g. "We offer health, dental and pet insurance"
-- **Text Categorisation Model** -> Categorises extracted benefits into a list of predefined benefit categories
+- **Text Classification Model** -> Categorises extracted benefits into a list of predefined benefit categories
 
 **Example Output:**
 
@@ -44,7 +44,10 @@ To achieve this, I trained **two ML models**:
 <br>
 
 ### 📘 Project notebooks
-- 📄 **[Main Workflow Notebook](/notebooks/Using_NER_and_Classificcation_models.ipynb)**
+- 📄 **[Using models to extract + classify benefits from job descriptions](/notebooks/Using_NER_and_Classificcation_models.ipynb)**
+- 📄 **[Training NER model using spaCy](/notebooks/)**
+- 📄 **[Training Text Classification model using spaCy](/notebooks/)**
+- 📄 **[Extracting data using SQL](/notebooks/SQL_to_extract_data.ipynb)**
 
 ### 📂 Dataset
 **Source:** Job descriptions **scraped from online job boards** and stored in **Databricks Catalog**  
@@ -52,7 +55,7 @@ To achieve this, I trained **two ML models**:
 - **Preprocessing:** Converted to plain text, tokenized for NLP model training  
 - **Annotations:** Manually labeled via **Prodi.gy**, with:  
   - **2,000+ annotated JDs for NER**  
-  - **3,500+ annotated JDs for Text Categorization**  
+  - **3,500+ annotated JDs for Text Classification**  
 <br>
 
 ### 🔑 Key steps
@@ -62,11 +65,11 @@ To achieve this, I trained **two ML models**:
 
 **2️⃣ Annotation & Model Training**  
 - Created ground-truth, labeled dataset by annotating job descriptions manually using **Prodi.gy**
-- Used a fine-tuned **BERT-based transformer models** for both NER & Categorisation
+- Used a fine-tuned **BERT-based transformer models** for both NER & Classification
 
 **3️⃣ Model Architecture**  
 - **NER Model:** Uses **pre-trained BERT embeddings** + a custom NER component to detect **benefit phrases**  
-- **Text Categorization Model:** **Multi-label classifier** that assigns benefits to **one or more categories** based on model confidence  
+- **Text Classification Model:** **Multi-label classifier** that assigns benefits to **one or more categories** based on model confidence  
 
 **4️⃣ Model Evaluation & Iteration**  
 - Performance measured via **Precision, Recall, and F1 Score** 
