@@ -44,10 +44,10 @@ To achieve this, I trained **two ML models**:
 <br>
 
 ### 📘 Project notebooks
-- 📄 **[Using models to extract + classify benefits from job descriptions](/notebooks/Using_NER_and_Classificcation_models.ipynb)**
-- 📄 **[Training NER model using spaCy](/notebooks/)**
-- 📄 **[Training Text Classification model using spaCy](/notebooks/)**
-- 📄 **[Extracting data using SQL](/notebooks/SQL_to_extract_data.ipynb)**
+- 📄 **[Using models to extract + classify benefits from job descriptions](notebooks/Using_NER_and_Classificcation_models.ipynb)**
+- 📄 **[Training NER model using spaCy](notebooks/Training_NER_Model.ipynb)**
+- 📄 **[Training Text Classification model using spaCy](notebooks/Training_Classification_Model.ipynb)**
+- 📄 **[Extracting data using SQL](notebooks/SQL_to_extract_data.ipynb)**
 <br>
 
 ### 📂 Dataset
