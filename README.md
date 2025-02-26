@@ -48,6 +48,7 @@ To achieve this, I trained **two ML models**:
 - 📄 **[Training NER model using spaCy](/notebooks/)**
 - 📄 **[Training Text Classification model using spaCy](/notebooks/)**
 - 📄 **[Extracting data using SQL](/notebooks/SQL_to_extract_data.ipynb)**
+<br>
 
 ### 📂 Dataset
 **Source:** Job descriptions **scraped from online job boards** and stored in **Databricks Catalog**  
