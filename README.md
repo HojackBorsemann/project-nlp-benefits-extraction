@@ -20,8 +20,8 @@ To achieve this, I trained **two ML models**:
     </thead>
     <tbody>
         <tr>
-            <td rowspan="3">"We at ABC ltd are looking to hire an Insights Analyst, offering benefits such as a pension plan matching up to 5% of employer contribution, cycle2work scheme, health insurance, and much more!"</td>
-            <td>pension plan matching up to 5% of employer contribution</td>
+            <td rowspan="3">"We at ABC ltd are looking to hire an Insights Analyst, offering benefits like pension matched up to 5% of employer contribution, cycle2work scheme, health insurance, and much more!"</td>
+            <td>pension matched up to 5% of employer contribution</td>
             <td>Retirement_benefits</td>
         </tr>
         <tr>
