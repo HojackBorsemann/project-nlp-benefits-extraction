@@ -45,9 +45,9 @@ To achieve this, I trained **two ML models**:
 
 ### 📘 Project notebooks
 - 📄 **[Using models to extract + classify benefits from job descriptions](notebooks/Using_NER_and_Classificcation_models.ipynb)**
-- 📄 **[Training NER model using spaCy](notebooks/Training_NER_Model.ipynb)**
-- 📄 **[Training Text Classification model using spaCy](notebooks/Training_Classification_Model.ipynb)**
-- 📄 **[Extracting data using SQL](notebooks/SQL_to_extract_data.ipynb)**
+- 📄 **[Training an NER model to extract benefits from job descriptions.ipynb)**
+- 📄 **[Training Text Classification model to categorise benefits](notebooks/Training_Classification_Model.ipynb)**
+- 📄 **[Extracting training data using SQL](notebooks/SQL_to_extract_data.ipynb)**
 <br>
 
 ### 📂 Dataset
