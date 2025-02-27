@@ -38,14 +38,14 @@ To achieve this, I trained **two ML models**:
 
 ### 🎯 KPIs (Key Performance Indicators)
 ✅ **Extraction Accuracy** - Ensure benefits are extracted with full context (e.g., pension contribution %)  
-✅ **Global Applicability** - Model is trained on job descriptions across **UK, US, Germany, India, Australia, France, and Canada**  
+✅ **Global Applicability** - Model is trained on job descriptions across UK, US, Germany, India, Australia, France, and Canada  
 ✅ **High Recall Rate** – Minimize overlooked benefits in job descriptions  
 ✅ **False Positive Minimization** – Avoid irrelevant extractions (e.g., distinguishing "health insurance" as a benefit vs. a job responsibility)  
 <br>
 
 ### 📘 Project notebooks
 - 📄 **[Using models to extract + classify benefits from job descriptions](notebooks/Using_NER_and_Classificcation_models.ipynb)**
-- 📄 **[Training an NER model to extract benefits from job descriptions.ipynb)**
+- 📄 **[Training an NER model to extract benefits from job descriptions](notebook/Training_NER_Model.ipynb)**
 - 📄 **[Training Text Classification model to categorise benefits](notebooks/Training_Classification_Model.ipynb)**
 - 📄 **[Extracting training data using SQL](notebooks/SQL_to_extract_data.ipynb)**
 <br>
